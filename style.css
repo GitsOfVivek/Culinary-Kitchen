@@ -68,12 +68,12 @@ body {
 .varietie-box {
 	width: 90%;
 	min-height: 100%;
-	gap: 2rem;
 	margin: 2rem 0;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 4fr 1fr;
 	row-gap: 2rem;
+	column-gap: 2rem;
 }
 .varietie-box-left {
 	position: relative;
@@ -91,6 +91,7 @@ body {
 	grid-template-rows: 1fr 1fr;
 	row-gap: 2rem;
 	column-gap: 2rem;
+	width: 100%;
 }
 .varietie-box-right-1 {
 	width: 100%;
@@ -421,6 +422,7 @@ footer {
 	.varietie-box {
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 4fr 1fr;
+		column-gap: 0;
 	}
 	.varietie-box-left {
 		grid-column: 1 / 3;
