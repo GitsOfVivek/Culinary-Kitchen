@@ -412,15 +412,15 @@ footer {
 	font-size: 2rem;
 }
 
-/* Responsie */
+/* Responsive */
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 	#varieties {
 		height: 220vh;
 	}
 	.varietie-box {
 		grid-template-columns: 1fr;
-		grid-template-rows: 4fr 4fr 1fr;
+		grid-template-rows: 1fr 4fr 1fr;
 	}
 	.varietie-box-left {
 		grid-column: 1 / 3;
@@ -433,7 +433,49 @@ footer {
 		width: 100%;
 	}
 }
-@media (max-width: 375px) {
+
+@media (max-width: 992px) {
+	.mask-left {
+		top: 40%;
+		height: 60%;
+	}
+	#top-chefs {
+		height: 120vh;
+	}
+	.chefs-content {
+		flex-direction: column;
+		height: fit-content;
+	}
+	.chef {
+		height: 20rem;
+		width: 25rem;
+		margin: 1rem 0;
+	}
+	#food-guide {
+		top: -18rem;
+		height: 130vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.food-bg {
+		background: url(./img/bgImg2.png) repeat-y;
+	}
+	.food-item-box {
+		width: 90%;
+		height: 80%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media (max-width: 600px) {
+	.mask-left {
+		top: 30%;
+		height: 70%;
+	}
 	.varietie-box {
 		grid-template-columns: 1fr;
 		grid-template-rows: 4fr 4fr 4fr;
