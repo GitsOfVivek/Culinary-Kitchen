@@ -476,9 +476,12 @@ footer {
 		top: 30%;
 		height: 70%;
 	}
+	#varieties {
+		height: fit-content;
+	}
 	.varietie-box {
 		grid-template-columns: 1fr;
-		grid-template-rows: 4fr 4fr 4fr;
+		grid-template-rows: 1.5fr 4fr 1fr;
 	}
 	.varietie-box-right {
 		grid-template-columns: 1fr;
